@@ -15,13 +15,12 @@ class Point2D
     double Getx(){return x;}
     double Gety(){return y;}
     
-    void Setx(double);
-	void Sety(double);
+    void Setx(double x1){x = x1;};
+	void Sety(double y1){y = y1;};
 
     double Norm();
 
     Point2D operator+(Point2D &);
     Point2D operator-(Point2D &);
-    void operator+=(Point2D &);
 
 };

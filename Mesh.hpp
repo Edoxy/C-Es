@@ -8,7 +8,7 @@ using namespace std;
 class Mesh
 {
     private:
-    vector<Point2D *> point;
+    vector<Point2D *> points;
     vector<Edge *> edges;
     vector<Poligon *> polis;
 
