@@ -1,5 +1,4 @@
 #include "Edge.hpp"
-#include <math.h>
 
 Edge::Edge()
 {

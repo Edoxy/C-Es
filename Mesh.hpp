@@ -12,4 +12,4 @@ class Mesh
     vector<Edge *> edges;
     vector<Poligon *> polis;
 
-}
+};

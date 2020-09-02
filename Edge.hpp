@@ -1,6 +1,10 @@
+#ifndef EDGE
+#define EDGE
+
 #include <vector>
 #include "Point2D.hpp"
 #include "Poligon.hpp"
+
 
 class Edge
 {
@@ -23,3 +27,5 @@ class Edge
 
 	double Norm();
 };
+
+#endif

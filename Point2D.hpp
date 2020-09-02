@@ -1,10 +1,17 @@
+#ifndef POINT
+#define POINT
+
 #include <math.h>
+#include "Edge.hpp"
+#include "Poligon.hpp"
 
 class Point2D
 {
     private:
     double x;
     double y;
+    std::vector<Edge*> edges;
+    std::vector<Poligon*> polis;
 
     public:
     Point2D();
@@ -24,3 +31,4 @@ class Point2D
     Point2D operator-(Point2D &);
 
 };
+#endif
