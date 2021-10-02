@@ -28,7 +28,6 @@ class Poligon
     int NumberOfEdge(){return edges.size();};
 
     double Perimetro();
-    double Area();
     
 };
 #endif

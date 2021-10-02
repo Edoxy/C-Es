@@ -39,8 +39,3 @@ double Poligon::Perimetro()
     }
     return sum;
 }
-
-double Area()
-{
-    
-}

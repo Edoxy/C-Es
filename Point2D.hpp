@@ -24,6 +24,8 @@ class Point2D
     
     void Setx(double x1){x = x1;};
 	void Sety(double y1){y = y1;};
+    void AddEdge(Edge* edge){edges.push_back(edge);};
+    void AddPoly(Poligon* poli){polis.push_back(poli);};
 
     double Norm();
 
